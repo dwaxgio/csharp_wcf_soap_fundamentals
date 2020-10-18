@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp_wcf_soap_fundamentals", "csharp_wcf_soap_fundamentals.csproj", "{D59995F4-5C96-4E4F-986E-60DE2C5BE590}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIENTE", "..\CLIENTE\CLIENTE.csproj", "{FF06B762-9362-4F08-AF4F-4D882674A73D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D59995F4-5C96-4E4F-986E-60DE2C5BE590} = {D59995F4-5C96-4E4F-986E-60DE2C5BE590}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D59995F4-5C96-4E4F-986E-60DE2C5BE590}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D59995F4-5C96-4E4F-986E-60DE2C5BE590}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D59995F4-5C96-4E4F-986E-60DE2C5BE590}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D59995F4-5C96-4E4F-986E-60DE2C5BE590}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF06B762-9362-4F08-AF4F-4D882674A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF06B762-9362-4F08-AF4F-4D882674A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF06B762-9362-4F08-AF4F-4D882674A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF06B762-9362-4F08-AF4F-4D882674A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324D29FB-28AB-4D8C-AA77-49AE82CD3031}
+	EndGlobalSection
+EndGlobal
